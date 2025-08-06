@@ -1,4 +1,4 @@
-import CardButton from "@/components/CardButton";
+import CartButton from "@/components/CartButton";
 import { images, offers } from "@/constants";
 import useAuthStore from "@/store/auth.store";
 import cn from "clsx";
@@ -80,7 +80,7 @@ export default function Index() {
               </TouchableOpacity>
             </View>
             <Text>
-              <CardButton />
+              <CartButton />
             </Text>
           </View>
         )}
